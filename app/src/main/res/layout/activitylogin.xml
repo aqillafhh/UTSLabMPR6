@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="55dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="68dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/fashion">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Halaman Login"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold">
+        </TextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username1"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shapelogin"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/black"></EditText>
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shapelogin"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/black"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="15dp"
+            android:text="Lupa Password"
+            android:textColor="@color/black"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:id="@+id/button1"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shapesepatu"
+        android:textSize="16dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun?"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar sekarang"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginLeft="5dp"
+        android:textSize="16dp">
+    </TextView>
+</LinearLayout>
